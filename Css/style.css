@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Kanit', sans-serif;
   margin: 0%;
 }
 
@@ -80,20 +80,20 @@ span {
   margin: auto;
 }
 
-.juega-ya {
+#juega-ya {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   flex-direction: column;
-  height: 90vh;
+  height: 120vh;
   color: white;
   background-image: linear-gradient(
       0deg,
       rgba(0, 0, 0, 0.8),
       rgba(0, 0, 0, 0.8)
     ),
-    url(https://i.kym-cdn.com/photos/images/newsfeed/001/271/452/088.gif);
+    url(https://c.tenor.com/KUwwdFS0mTMAAAAC/dragon-ball-fighter-z-goku.giff);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -105,6 +105,10 @@ span {
   flex-direction: column;
   text-align: center;
   justify-content: center;
+}
+
+#somoszGaming .texto{
+  font-size: 1.50em;
 }
 
 #juegos {
@@ -218,11 +222,11 @@ footer .container {
   header a {
     font-size: px;
   }
-  .juega-ya h1 {
+  #juega-ya h1 {
     font-size: 80px;
   }
 
-  .juega-ya button {
+  #juega-ya button {
     padding: 25px 35px;
   }
   #somoszGaming .container {
@@ -242,7 +246,7 @@ footer .container {
   }
   #somoszGaming .somosimg {
     height: 50px;
-    padding: 100px 20px;
+    padding: 100px 250px;
     background-image: url(https://www.antevenio.com/wp-content/uploads/2021/11/eventos-2022-esports-y-gaming-que-es.jpg);
     background-repeat: no-repeat;
     background-size: cover;
