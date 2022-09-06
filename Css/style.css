@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: 'Kanit', sans-serif;
+  font-family: "Kanit", sans-serif;
   margin: 0%;
 }
 
@@ -17,7 +17,7 @@ h3 {
   font-size: 35px;
 }
 p {
-  font-size: 1.1em;
+  font-size: 1.25em;
 }
 li {
   font-size: 30px;
@@ -107,8 +107,8 @@ span {
   justify-content: center;
 }
 
-#somoszGaming .texto{
-  font-size: 1.50em;
+#somoszGaming .texto {
+  font-size: 1.5em;
 }
 
 #juegos {
@@ -118,7 +118,7 @@ span {
 }
 
 #juegos .container {
-  padding: 150px 10px;
+  padding: 150px 0px;
 }
 
 #juegos h3 {
@@ -132,7 +132,7 @@ span {
 #juegos .game {
   background-position: center center;
   background-size: cover;
-  padding: 50px 100px;
+  padding: 50px 200px;
   margin: 30px;
   border-radius: 15px;
 }
@@ -198,7 +198,7 @@ footer .container {
   display: flex;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 850px) {
   header {
     position: fixed;
     width: 100%;
@@ -257,12 +257,10 @@ footer .container {
 
   #juegos .programas {
     display: flex;
-    justify-content: center;
   }
 
   #juegos p {
     display: block;
-    text-align: center;
     margin-bottom: 30px;
   }
 
@@ -273,6 +271,7 @@ footer .container {
 
   #juegos .game {
     padding: 50px;
+    width: 450px;
   }
 
   #caracteristicas .container {
@@ -283,6 +282,10 @@ footer .container {
 
   #caracteristicas {
     font-size: 25px;
+  }
+
+  .game h3 {
+    margin-top: 0%;
   }
 
   .pulgar {
