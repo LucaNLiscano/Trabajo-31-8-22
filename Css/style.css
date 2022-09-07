@@ -306,6 +306,10 @@ footer .container {
     padding: 20px 40px;
   }
 
+  #caracteristicas .container {
+    text-align: initial;
+  }
+
   footer .container {
     justify-content: end;
   }
