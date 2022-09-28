@@ -15,17 +15,18 @@
       <div class="container">
         <p class="logo">zGaming<span>Uruguay</span> </p>
         <nav>
-            <a href="#juega-ya">Inicio</a>
-            <a href="#somoszGaming">Sobre nosotros</a>
-            <a href="#juegos">Juegos</a>
-            <a href="#caracteristicas">caracteristicas</a>
+            <button class="nav-button" onclick="accion()">Menu</button>
+            <a href="#juega-ya" class="nav-a desaparece">Inicio</a>
+            <a href="#somoszGaming" class="nav-a desaparece">Sobre nosotros</a>
+            <a href="#juegos" class="nav-a desaparece">Juegos</a>
+            <a href="#caracteristicas" class="nav-a desaparece">caracteristicas</a>
         </nav>
       </div>
     </header>
 
     <section id="juega-ya">
       <h1>¡Los mejores juegos online!</h1>
-      <button>¡Juega ya!</button>
+      <button class="boton">¡Juega ya!</button>
     </section>
 
     <section id="somoszGaming">
@@ -54,7 +55,7 @@
                         DRAGON BALL FighterZ conserva la esencia de la famosa saga DRAGON BALL: espectaculares combates entre poderosos luchadores.
                     </p>
                     <form action="https://es.bandainamcoent.eu/dragon-ball/dragon-ball-fighterz" target="_blank">
-                            <button>+info</button>
+                            <button class="boton">+info</button>
                     </form>
                 </div>
                 
@@ -65,7 +66,7 @@
                         Yu-Gi-Oh! Master Duel es un videojuego de cartas free to play basado en la popular franquicia Yu-Gi-Oh!. Desarrollado y distribuido por el propietario de la franquicia, Konami. 
                     </p>
                     <form action="https://www.konami.com/yugioh/masterduel/us/en/" target="_blank">
-                        <button>+info</button>
+                        <button class="boton">+info</button>
                     </form>
                 </div>
                 
@@ -75,7 +76,7 @@
                         Valorant es un hero shooter en primera persona multijugador gratuito desarrollado y publicado por Riot Games. 
                     </p>
                 <form action="https://playvalorant.com/en-us/" target="_blank">
-                    <button>+info</button>
+                    <button class="boton">+info</button>
                 </form>
                 </div>
             </div>
@@ -98,12 +99,32 @@
         <h1>
             Mas informacion
         </h1>
-        <button>+info</button>
+        <button class="boton">+info</button>
     </section>
     <footer>
         <div class="container">
-            <p>&copy;zGamingUrguay 2021</p>
+            <div class="footer-ul">
+                <h2 class="menu-f">Menu</h2>
+                <ul>
+                    <li> <a href="#juega-ya"> > Inicio</a></li>
+                    <li> <a href="#somoszGaming"> > Sobre nosotros</a></li>
+                    <li> <a href="#juegos"> > Juegos</a></li>
+                    <li>  <a href="#caracteristicas"> > caracteristicas</a></li>
+                    <li></li>
+                </ul>
+            </div>
+            <div class="footer-ul">
+                <h2 class="menu-f">Contacto</h2>
+                <ul>
+                    <li> Telefono: 098209127</li>
+                    <li>correo: zGamingUruguay@gmail.com</li>
+                    <li>instagram: zGamingUruguay</li>
+                    <li>twiter: @zGamingUruguay</li>
+                </ul>
+            </div class="copy">
+            <p>&copy;zGamingUrguay 2022</p>
         </div>
+     <script src="/js/app.js"></script>
     </footer>
   </body>
 </html>
