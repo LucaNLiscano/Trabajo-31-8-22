@@ -8,6 +8,7 @@ html {
 body {
   font-family: "Kanit", sans-serif;
   margin: 0%;
+  background-color: rgb(202, 209, 214);
 }
 
 h1 {
@@ -42,7 +43,7 @@ ul {
 }
 
 header {
-  background-color: rgb(19, 16, 16);
+  background-color: rgb(11, 8, 8);
 }
 
 nav {
@@ -224,12 +225,12 @@ footer .container {
 }
 footer {
   padding: 15px;
+  flex-wrap: wrap;
 }
 footer a {
   text-decoration: none;
   color: dodgerblue;
 }
-
 @media (min-width: 850px) {
   nav {
     flex-direction: row;
@@ -316,6 +317,11 @@ footer a {
     width: 450px;
   }
 
+  .game {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
   #caracteristicas .container {
     display: flex;
     justify-content: space-evenly;
@@ -352,12 +358,12 @@ footer a {
     text-align: initial;
   }
 
-  footer .container {
-    flex-direction: row;
+  .ul-containers {
+    display: flex;
     justify-content: space-around;
   }
 
-  footer .copy {
-    text-align: center;
+  .footer-container li {
+    font-size: 20px;
   }
 }
